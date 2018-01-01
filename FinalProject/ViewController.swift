@@ -26,14 +26,15 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         subtitle.text = passedValue[1];
         created_time.text = passedValue[2];
         descript.text = passedValue[3];
+        descript.sizeToFit()
         
         let imgSet = self.resizeImage(image: self.setImage(name: passedValue[0],type: "jpg"),targetWidth: img.frame.size.width)
         
         img.image = imgSet
         
-        print("\(descript.frame.origin.y + descript.frame.size.height)")
+        print("y: \(descript.frame.origin.y) height: \(descript.frame.size.height)")
         
-        scrollView.contentSize = CGSize(width: contentView.frame.size.width , height: contentView.frame.size.height)
+        scrollView.contentSize = CGSize(width: contentView.frame.size.width , height: (descript.frame.origin.y + descript.frame.size.height + 35))
         scrollView.isScrollEnabled = true
         scrollView.isPagingEnabled = false
         scrollView.delegate = self
@@ -82,7 +83,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         return newImage!
     }
-
 
 }
 

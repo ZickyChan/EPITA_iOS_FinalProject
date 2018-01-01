@@ -34,18 +34,21 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rWm-DU-1lD">
                                             <rect key="frame" x="16" y="16" width="52" height="33.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.34595747957008149" green="1" blue="0.95868174073272616" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" red="0.0030972877033557111" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yiz-rH-Ius">
                                             <rect key="frame" x="16" y="49.5" width="53" height="18"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.34595747957008149" green="1" blue="0.95868174073272616" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" red="0.95526013289070466" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="0.87640796497845708" green="1" blue="0.14595726187405067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -116,6 +119,7 @@
                                             <constraint firstItem="fpj-7H-Gb9" firstAttribute="centerX" secondItem="SK7-nR-J9J" secondAttribute="centerX" id="OEO-6L-l52"/>
                                             <constraint firstItem="brh-4u-TCd" firstAttribute="top" secondItem="YrA-oZ-CNm" secondAttribute="bottom" constant="30" id="Wur-wd-2mk"/>
                                             <constraint firstAttribute="trailing" secondItem="brh-4u-TCd" secondAttribute="trailing" constant="20" id="b3e-eB-S3h"/>
+                                            <constraint firstAttribute="bottom" secondItem="vc5-tw-2md" secondAttribute="bottom" constant="5" id="cdv-Pv-Ytk"/>
                                             <constraint firstItem="W7f-uD-QeG" firstAttribute="centerX" secondItem="SK7-nR-J9J" secondAttribute="centerX" id="ckG-5g-TyV"/>
                                             <constraint firstAttribute="trailing" secondItem="fpj-7H-Gb9" secondAttribute="trailing" constant="20" id="csy-Md-Zb6"/>
                                             <constraint firstAttribute="trailing" secondItem="YrA-oZ-CNm" secondAttribute="trailing" constant="20" id="gsn-H0-Iqu"/>
@@ -130,7 +134,7 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="SK7-nR-J9J" firstAttribute="top" secondItem="AXM-0n-caP" secondAttribute="top" constant="-20" id="lBx-7r-aao"/>
+                                    <constraint firstItem="SK7-nR-J9J" firstAttribute="top" secondItem="AXM-0n-caP" secondAttribute="top" id="lBx-7r-aao"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -140,7 +144,7 @@
                             <constraint firstItem="SK7-nR-J9J" firstAttribute="centerX" secondItem="zx0-Lx-IFK" secondAttribute="centerX" id="AiF-5K-8fJ"/>
                             <constraint firstItem="SK7-nR-J9J" firstAttribute="width" secondItem="plI-og-7FR" secondAttribute="width" id="AoW-hl-v60"/>
                             <constraint firstItem="zx0-Lx-IFK" firstAttribute="bottom" secondItem="AXM-0n-caP" secondAttribute="bottom" constant="20" id="cxl-aa-FiO"/>
-                            <constraint firstItem="zx0-Lx-IFK" firstAttribute="top" secondItem="AXM-0n-caP" secondAttribute="top" id="iQR-Le-aF2"/>
+                            <constraint firstAttribute="top" secondItem="AXM-0n-caP" secondAttribute="top" id="iQR-Le-aF2"/>
                             <constraint firstItem="zx0-Lx-IFK" firstAttribute="trailing" secondItem="AXM-0n-caP" secondAttribute="trailing" id="qBD-3a-bpt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zx0-Lx-IFK"/>
